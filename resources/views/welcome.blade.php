@@ -7,9 +7,5 @@
 
 <!-- HERO -->
 <x-herosection />
-<!-- SECTION -->
-<div>
-    
-</div>
 
 @endsection

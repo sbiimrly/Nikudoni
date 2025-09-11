@@ -9,19 +9,35 @@
         <!-- Lingkaran merah -->
         <div class="absolute size-40 lg:size-90 rounded-full bg-red-500 z-0"></div>
         
-        <!-- Gambar ramen -->
-        <img src="{{ asset('images/Hero-ramen.png') }}" 
-        alt="Ramen"
-        class="relative w-9/10 lg:w-4/6 z-1 -left-4 lg:-left-12 mt-10 lg:mt-20">
-        
+        <!-- Parent -->
+        <div class="flex overflow-x-auto snap-x snap-mandatory no-scrollbar">
+            <!-- Item -->
+            <div class="snap-center shrink-0 w-full flex justify-center">
+                <img src="{{ asset('images/Hero-ramen.png') }}" 
+                alt="Ramen"
+                class="relative w-9/10 lg:w-4/6 z-1 -left-4 lg:-left-12 mt-10 lg:mt-20">
+            </div>
+            <div class="snap-center shrink-0 w-full flex justify-center">
+                <img src="{{ asset('images/Hero-ramen.png') }}" 
+                alt="Ramen"
+                class="relative w-9/10 lg:w-4/6 z-1 -left-4 lg:-left-12 mt-10 lg:mt-20">
+            </div>
+            <div class="snap-center shrink-0 w-full flex justify-center">
+                <img src="{{ asset('images/Hero-ramen.png') }}" 
+                alt="Ramen"
+                class="relative w-9/10 lg:w-4/6 z-1 -left-4 lg:-left-12 mt-10 lg:mt-20">
+            </div>
+        </div>
+
         <!-- Green -->
-         <div class="absolute text-white bg-secondary-500 rounded-full z-2 text-sm size-16 flex items-center justify-center top-50 right-14 cursor-pointer">Menu</div>
+         <div class="absolute text-white bg-secondary-500 rounded-full z-2 text-xs size-16 flex items-center justify-center top-50 right-14 cursor-pointer">Scroll -></div>
         
     </div>
 
     <!-- Text -->
     <div>
         <div class="text-black-500 text-center text-lg lg:text-2xl font-semibold lg:pt-10"><span class="text-sm text-black-200 font-normal">牛肉醤油ラーメン</span> <br> Gyu Shoyu Ramen <span>*</span> </div>
+        
     </div>
     
 </div>
