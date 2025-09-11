@@ -1,0 +1,24 @@
+@import "tailwindcss";
+
+@source '../../vendor/laravel/framework/src/Illuminate/Pagination/resources/views/*.blade.php';
+@source '../../storage/framework/views/*.php';
+@source '../**/*.blade.php';
+@source '../**/*.js';
+
+@theme {
+    /* FONT */
+    --font-manrope: "Manrope";
+    
+    /* COLOR PRIMARY */
+    --color-primary-500: #F94539;
+
+    /* COLOR-SECONDARY */
+    --color-secondary-500: #90920A;
+
+    /*  */
+    --color-black-500: #212121;
+    --color-black-200: #717171;
+    --color-white: #FFFFFF;
+
+    --color-background: #F3F4F6;
+}
