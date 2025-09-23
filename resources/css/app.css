@@ -36,3 +36,9 @@ scrollbar-width: none; /* Firefox */
     --color-cream: #FDCE90;
     --color-background: #F3F4F6;
 }
+
+@layer utilities {
+    .bg-image-section1 {
+        background-image: "url('/images/foto-sectionabout-home.svg')";
+    }
+}

@@ -6,9 +6,9 @@
     </x-text.twxt-label>
 
     <!-- TEXT HERO -->
-    <x-text.text-heading1>
-        Comfort Food <span class="text-primary-500">Jepang Halal</span> di Semarang
-    </x-text.text-heading1>
+    <x-text.text-heading>
+        Nikmati <span class="text-primary-500">Comfort Food Jepang & Halal</span> Hanya di Semarang
+    </x-text.text-heading>
 
     <!-- P -->
     <x-text.text-p>
@@ -45,13 +45,25 @@
     </div>
 
     <!-- Text -->
-    <div class="flex gap-4 items-center justify-around">
-        <div class="text-black-500 text-center text-lg lg:text-2xl font-semibold lg:pt-10"><span class="text-sm text-black-200 font-normal">牛肉醤油ラーメン</span> <br> Gyu Shoyu Ramen <span>*</span> </div>
+    <div class="flex items-center justify-around">
+        <div class="text-sm text-black-200 font-normal">
+            牛肉醤油ラーメン
+            <div class="flex gap-2 text-black-500 text-center text-lg lg:text-2xl font-semibold lg:pt-10">
+                Gyu Shoyu Ramen
+                <img src="{{ asset('icon/star.svg') }}" alt="Rekomendasi">
+            </div>
+        </div>
             <div class="grid grid-cols-2">
                 <div class="text-black-200 font-normal text-sm flex justify-center pr-2">Reg</div>
                 <div class="text-black-200 font-normal text-sm flex justify-center border-l border-black-200 pl-4">Large</div>
                 <div class="text-black-500 font-semibold text-2xl pt-1 flex justify-center pr-2">35K</div>
                 <div class="text-black-500 font-semibold text-2xl border-l border-black-200 pl-4 pt-1">42K</div>
             </div>
+    </div>
+    <div class="flex items-center justify-center gap-3 pt-3 lg:pt-10">
+        <x-button.button-cta class="">
+            Order ->
+        </x-button.button-cta>
+        <x-button.button-cta>Menu</x-button.button-cta>
     </div>
 </div>

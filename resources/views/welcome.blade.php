@@ -8,4 +8,7 @@
 <!-- HERO -->
 <x-herosection />
 
+<!-- ABOUT US -->
+ <x-section />
+
 @endsection
