@@ -9,6 +9,12 @@
 <x-herosection />
 
 <!-- ABOUT US -->
- <x-section />
+<x-section />
+
+<!-- SERVIS -->
+<x-servis />
+
+<!-- TESTIMONI  -->
+<x-testimoni />
 
 @endsection

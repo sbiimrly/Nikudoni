@@ -20,7 +20,7 @@
         <div class="absolute size-40 lg:size-90 rounded-full bg-red-500 z-0"></div>
         
         <!-- Parent -->
-        <div class="flex overflow-x-auto snap-x snap-mandatory no-scrollbar">
+        <div id="carousel" class="flex overflow-x-auto snap-x snap-mandatory no-scrollbar">
             <!-- Item -->
             <div class="snap-center shrink-0 w-full flex justify-center">
                 <img src="{{ asset('images/Hero-ramen.png') }}" 
@@ -60,10 +60,12 @@
                 <div class="text-black-500 font-semibold text-2xl border-l border-black-200 pl-4 pt-1">42K</div>
             </div>
     </div>
-    <div class="flex items-center justify-center gap-3 pt-3 lg:pt-10">
-        <x-button.button-cta class="">
+    <div class="flex gap-3 pt-3 lg:pt-10">
+        <div class="bg-primary-500 py-4 px-4 text-white rounded-4xl w-full flex justify-center">
             Order ->
-        </x-button.button-cta>
-        <x-button.button-cta>Menu</x-button.button-cta>
+        </div>
+        <a href="{{ route('menu.page') }}" class="bg-secondary-500 py-4 px-4 text-white rounded-4xl w-1/2 flex justify-center">
+            Menu
+        </a>
     </div>
 </div>

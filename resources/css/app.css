@@ -42,3 +42,19 @@ scrollbar-width: none; /* Firefox */
         background-image: "url('/images/foto-sectionabout-home.svg')";
     }
 }
+
+@keyframes scrollInfinite {
+  0% { transform: translateX(0); }
+  100% { transform: translateX(-50%); }
+}
+
+.scroll-track {
+  display: flex;
+  width: max-content;
+  animation: scrollInfinite 25s linear infinite;
+}
+
+.scroll-wrapper {
+  overflow: hidden;
+  width: 100%;
+}
