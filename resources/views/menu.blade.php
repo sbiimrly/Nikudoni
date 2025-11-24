@@ -40,6 +40,7 @@
                 <p class="text-primary-500 font-bold text-lg">
                     Rp {{ number_format($menu->price, 0, ',', '.') }}
                 </p>
+                <p>Stock tersisa: {{ $menu->stock }}</p>
             </div>
         @empty
             <p class="text-gray-500">Menu tidak ditemukan.</p>
